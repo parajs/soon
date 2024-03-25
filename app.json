@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "soon",
+    "slug": "soon",
+    "scheme": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/app-icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#222"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/app-icon.png",
+        "backgroundColor": "#222"
+      },
+      "package": "com.haytherecharlie.exporoutertypescript"
+    },
+    "web": {
+      "favicon": "./src/assets/images/app-icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
